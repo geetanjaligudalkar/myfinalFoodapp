@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #84cc16 ;
+  margin-bottom:30px;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+}
+
+.App-header .row{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-header .row button.cart-btn {
+  padding: 10px 15px;
+  background: #ee4e2c;
+  color: #fff;
+  border: 1px solid #ee4e2c;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
